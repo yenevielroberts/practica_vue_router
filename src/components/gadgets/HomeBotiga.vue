@@ -9,6 +9,8 @@ const productos=ref([
     {id:3, name:"Iphone",price:200}
 ])
 
+/*Siguiendo la explicación del profesor he echo otro array que inicialmente esta vacio. 
+Aquí guardaré los items que el usuario agregue al carrito*/
 const carret=ref([])//array para guardar los productos selecionados por el usuario en el carrito
 
 provide ('productos', productos)
@@ -28,9 +30,6 @@ provide('cart',carret)
          <Cart />
     </section> 
     </div>
-    
-   
-   
 </template>
 
 <style scoped>
@@ -44,7 +43,6 @@ provide('cart',carret)
 }
 .sectCarret{
      width: 50%;
-   
 }
 
 </style>
