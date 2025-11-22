@@ -1,11 +1,15 @@
 <script setup>
-import HomeBotiga from './components/gadgets/HomeBotiga.vue';
 
 </script>
 
 <template>
+<nav>
+  <RouterLink to="/">Home</RouterLink>
+  <RouterLink to="/receptes">Receptes</RouterLink>
+  <RouterLink to="/botigaGadgets">Provide & Inject (Botiga Gadgets)</RouterLink>
+</nav>
+<RouterView />
 
-  <HomeBotiga />
 </template>
 
 <style scoped></style>
