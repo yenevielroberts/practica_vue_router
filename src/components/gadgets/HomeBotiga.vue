@@ -4,9 +4,9 @@ import CategoryList from './CategoryList.vue';
 import {provide,ref } from 'vue';
 
 const productos=ref([
-    {id:1, name:"Headphones",price:50},
-    {id:2, name:"SmarthWatch",price:80},
-    {id:3, name:"Iphone",price:200}
+    {id:1, name:"Headphones",price:50,"cantidad":1},
+    {id:2, name:"SmarthWatch",price:80,"cantidad":1},
+    {id:3, name:"Iphone",price:200,"cantidad":1}
 ])
 
 /*Siguiendo la explicación del profesor he echo otro array que inicialmente esta vacio. 

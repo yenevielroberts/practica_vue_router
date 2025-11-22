@@ -7,7 +7,7 @@ const totalPrecio=computed(()=>{
     let total=0
 
     for(let producto of productos.value){
-        total+=producto.price
+        total+=producto.price*producto.cantidad
     }
 
     return total
@@ -21,6 +21,8 @@ const totalPrecio=computed(()=>{
     <div v-for="producto in productos" :key="producto.id">
         <p>{{ producto.name }}</p>
         <p>{{ producto.price }}</p>
+        <p v-if="!producto.cantidad">Cantidad:{{ 1 }}</p>
+        <p v-else>Cantidad:{{ producto.cantidad }}</p>
     </div>
     <p>Total:{{  totalPrecio}}</p>
 </div>

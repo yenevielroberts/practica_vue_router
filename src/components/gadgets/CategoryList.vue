@@ -10,12 +10,17 @@ const carret=inject('cart')//Injecto el array para guardar los productos en el c
 const agregarProducto=(id)=>{
 
     const producto=productos.value.find(pro=> pro.id===id)
-    carret.value.push(producto)
+
+    const productoExiste=carret.value.find(pro=> pro.id===id)
+    if(productoExiste !=null){
+        productoExiste.cantidad+=1
+    }else{
+       carret.value.push(producto) 
+    }
+    
 }
 
 </script>
-
-
 
 
 <template>
