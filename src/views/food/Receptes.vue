@@ -5,5 +5,5 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <h1>Receptes</h1>
-    <RouterLink :to="`/receptes/1`">Ver Detalle</RouterLink>
+    <RouterLink :to="`/receptes/1`">Ver Detalle</RouterLink> 
 </template>
