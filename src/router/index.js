@@ -5,7 +5,8 @@ const router = createRouter({
   routes: [
     {path:"/botigaGadgets",name:"homeBotiga", component:()=>import('@/views/gadgets/HomeBotiga.vue')},
     {path:"/",name:"home", component:()=>import('@/views/food/Home.vue')},
-    {path:"/receptes",name:"receptas", component:()=>import('@/views/food/Receptes.vue'), children:[{path:"/receptes/:id",name:"recepteDetalle", component:()=>import('@/views/food/recepteDetalle.vue')}]},
+    {path:"/receptes",name:"receptes", component:()=>import('@/views/food/Receptes.vue')},
+    {path:"/receptes/:id",name:"recepteDetalle", component:()=>import('@/views/food/recepteDetalle.vue')}
     
   ],
 })

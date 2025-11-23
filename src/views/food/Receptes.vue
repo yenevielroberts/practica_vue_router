@@ -1,8 +1,9 @@
 <script setup>
+import{ref} from 'vue'
 import { RouterLink } from 'vue-router';
 import data from'../../db/receptes.json/'
 
-const receptes=data.receptes
+const receptes=ref(data.receptes)
 
 </script>
 
@@ -14,5 +15,4 @@ const receptes=data.receptes
             <RouterLink :to="`/receptes/${recepte.id}`">Ver Detalle</RouterLink> 
         </div>
     </div>
-    
 </template>

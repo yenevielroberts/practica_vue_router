@@ -1,7 +1,7 @@
 {
     "receptes":[
-        {"id":1,"name":"Pasta Carbonara","desciption":"prueba pruea","image":""},
-        {"id":2,"name":"Pasta Carbonara","desciption":"p2rueba pruea","image":""},
-        {"id":3,"name":"Pasta Carbonara","desciption":"3prueba pruea","image":""}
+        {"id":1,"name":"Pasta Carbonara","description":"prueba pruea","image":""},
+        {"id":2,"name":"Pasta Carbonara","description":"p2rueba pruea","image":""},
+        {"id":3,"name":"Pasta Carbonara","description":"3prueba pruea","image":""}
     ]
 }

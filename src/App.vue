@@ -1,12 +1,13 @@
 <script setup>
-
+import Home from './views/food/Home.vue'
+import Receptes from './views/food/Receptes.vue'
 </script>
 
 <template>
   <header>
     <h1>FoodExplorer</h1>
     <nav>
-      <RouterLink to="/"class="enlaces">Home</RouterLink>
+      <RouterLink to="/" class="enlaces">Home</RouterLink>
       <RouterLink to="/receptes" class="enlaces">Receptes</RouterLink>
       <RouterLink to="/botigaGadgets" class="enlaces">Provide & Inject (Botiga Gadgets)</RouterLink>
     </nav>
