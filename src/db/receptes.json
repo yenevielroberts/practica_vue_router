@@ -1,7 +1,220 @@
 {
-    "receptes":[
-        {"id":1,"name":"Pasta Carbonara","description":"prueba pruea","image":""},
-        {"id":2,"name":"Pasta Carbonara","description":"p2rueba pruea","image":""},
-        {"id":3,"name":"Pasta Carbonara","description":"3prueba pruea","image":""}
-    ]
+  "receptes": [
+    {
+      "id": 1,
+      "name": "Paella Valenciana",
+      "description": "La paella tradicional con pollo, conejo y verduras.",
+      "ingredients": [
+        "Arroz",
+        "Pollo",
+        "Conejo",
+        "Judías verdes",
+        "Garrofó",
+        "Azafrán",
+        "Caldo de pollo"
+      ],
+      "steps": [
+        "Calienta aceite en la paellera y dora el pollo y el conejo.",
+        "Agrega las judías verdes y el garrofó, sofríe unos minutos.",
+        "Añade el arroz y mezcla bien con los ingredientes.",
+        "Vierte el caldo caliente y añade el azafrán.",
+        "Cocina a fuego medio hasta que el arroz absorba el caldo.",
+        "Deja reposar unos minutos antes de servir."
+      ],
+      "image": "https://jetextramar.com/wp-content/uploads/2022/01/receta-verdura-de-paella.jpg" 
+    },
+    {
+      "id": 2,
+      "name": "Tortilla de Patatas",
+      "description": "Clásica tortilla española con patatas y huevo.",
+      "ingredients": [
+        "Patatas",
+        "Huevos",
+        "Aceite de oliva",
+        "Cebolla",
+        "Sal"
+      ],
+        "steps": [
+        "Pela y corta las patatas en rodajas finas.",
+        "Fríe las patatas y la cebolla en aceite hasta que estén tiernas.",
+        "Bate los huevos en un bol y mezcla con las patatas escurridas.",
+        "Vierte la mezcla en una sartén y cocina a fuego medio.",
+        "Dale la vuelta con cuidado y cocina el otro lado.",
+        "Sirve caliente o a temperatura ambiente."
+      ],
+      "image": "https://cdn.recetasderechupete.com/wp-content/uploads/2020/11/Tortilla-de-patatas-4-1200x828.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gazpacho Andaluz",
+      "description": "Sopa fría de tomate perfecta para el verano.",
+      "ingredients": [
+        "Tomates",
+        "Pepino",
+        "Pimiento verde",
+        "Ajo",
+        "Aceite de oliva",
+        "Vinagre",
+        "Sal"
+      ],
+        "steps": [
+        "Lava y trocea los tomates, pepino y pimiento.",
+        "Pela el ajo y añade al vaso de la batidora.",
+        "Agrega un chorro de aceite de oliva, vinagre y sal.",
+        "Tritura todo hasta obtener una crema suave.",
+        "Pasa por un colador si quieres una textura más fina.",
+        "Refrigera al menos 1 hora antes de servir."
+      ],
+      "image": "https://i.blogs.es/e64620/gazpacho/1200_900.jpg" 
+    },
+    {
+      "id": 4,
+      "name": "Croquetas de Jamón",
+      "description": "Croquetas cremosas de bechamel con jamón serrano.",
+      "ingredients": [
+        "Harina",
+        "Leche",
+        "Mantequilla",
+        "Jamón serrano",
+        "Aceite",
+        "Pan rallado",
+        "Huevos"
+      ],
+       "steps": [
+        "Derrite la mantequilla en una sartén y añade harina para hacer roux.",
+        "Vierte la leche poco a poco, removiendo hasta obtener bechamel.",
+        "Añade el jamón picado y mezcla bien.",
+        "Deja enfriar la masa en el refrigerador.",
+        "Forma croquetas, pásalas por huevo y pan rallado.",
+        "Fríe en aceite caliente hasta que estén doradas."
+      ],
+      "image": "http://laespanolaaceites.com/wp-content/uploads/2019/06/croquetas-de-jamon-1080x671.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Crema Catalana",
+      "description": "Postre tradicional con crema pastelera y azúcar caramelizado.",
+      "ingredients": [
+        "Leche",
+        "Azúcar",
+        "Yemas de huevo",
+        "Maicena",
+        "Limón",
+        "Canela"
+      ],
+        "steps": [
+        "Calienta la leche con piel de limón y canela.",
+        "Bate las yemas con azúcar y maicena en un bol.",
+        "Vierte la leche caliente sobre las yemas poco a poco.",
+        "Vuelve a poner la mezcla en el cazo y cocina a fuego lento hasta espesar.",
+        "Vierte en recipientes individuales y deja enfriar.",
+        "Espolvorea azúcar por encima y quema con un soplete para caramelizar."
+      ],
+      "image": "https://spanishsabores.com/wp-content/uploads/2023/08/Crema-Catalana-Featured.jpg"
+    },  {
+      "id": 6,
+      "name": "Fabada Asturiana",
+      "description": "Cocido tradicional asturiano con fabes y embutidos.",
+      "ingredients": [
+        "Fabes",
+        "Chorizo",
+        "Morcilla",
+        "Panceta",
+        "Ajo",
+        "Sal"
+      ],
+         "steps": [
+        "Pon las fabes en remojo la noche anterior.",
+        "Cocina las fabes en agua con un poco de sal a fuego lento.",
+        "Agrega el chorizo, la morcilla y la panceta.",
+        "Deja cocer varias horas a fuego lento.",
+        "Revuelve con cuidado para que no se rompan las fabes.",
+        "Sirve caliente acompañado de pan."
+      ],
+      "image": "https://www.javirecetas.com/wp-content/uploads/2021/12/fabada-asturiana.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pulpo a la Gallega",
+      "description": "Pulpo cocido servido con pimentón, aceite y sal.",
+      "ingredients": [
+        "Pulpo",
+        "Patatas",
+        "Sal gruesa",
+        "Pimentón",
+        "Aceite de oliva"
+      ],
+       "steps": [
+        "Congela el pulpo previamente para romper fibras.",
+        "Hierve agua con sal y cocina el pulpo unos 40 minutos.",
+        "Corta el pulpo en rodajas y sirve sobre patatas cocidas.",
+        "Espolvorea con pimentón y un chorro de aceite de oliva.",
+        "Deja reposar unos minutos antes de servir."
+      ],
+      "image": "https://recetasdecocina.elmundo.es/wp-content/uploads/2024/10/pulpo-a-la-gallega.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Cocido Madrileño",
+      "description": "Guiso de garbanzos con carnes, verduras y fideos.",
+      "ingredients": [
+        "Garbanzos",
+        "Carne de ternera",
+        "Pollo",
+        "Chorizo",
+        "Panceta",
+        "Col",
+        "Zanahorias"
+      ],
+         "steps": [
+        "Pon los garbanzos en remojo la noche anterior.",
+        "Cuece los garbanzos con la carne y verduras a fuego lento.",
+        "Añade el chorizo y la panceta durante la cocción.",
+        "Separa el caldo y las verduras para servir primero la sopa.",
+        "Sirve los garbanzos y las carnes como plato principal."
+      ],
+      "image": "https://recetasdecocina.elmundo.es/wp-content/uploads/2024/10/cocido-madrileno-receta.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Patatas Bravas",
+      "description": "Patatas fritas acompañadas de salsa brava tradicional.",
+      "ingredients": [
+        "Patatas",
+        "Aceite",
+        "Pimentón picante",
+        "Ajo",
+        "Tomate",
+        "Harina"
+      ],
+          "steps": [
+        "Pela y corta las patatas en dados y fríelas en aceite caliente.",
+        "Para la salsa, sofríe ajo picado y tomate, añade pimentón.",
+        "Mezcla hasta obtener una salsa espesa.",
+        "Sirve las patatas con la salsa por encima."
+      ],
+      "image": "https://thecookinglab.es/wp-content/uploads/2014/02/patatas-bravas-receta.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Pisto Manchego",
+      "description": "Salteado de verduras con tomate típico de La Mancha.",
+      "ingredients": [
+        "Tomate",
+        "Pimiento",
+        "Calabacín",
+        "Berenjena",
+        "Ajo",
+        "Aceite de oliva"
+      ],
+        "steps": [
+        "Corta todas las verduras en dados pequeños.",
+        "Sofríe ajo y pimiento en aceite hasta que estén tiernos.",
+        "Agrega calabacín y berenjena y cocina unos minutos.",
+        "Incorpora el tomate y cocina a fuego lento hasta que se evapore el líquido.",
+        "Rectifica de sal y sirve caliente."
+      ],
+      "image": "https://www.pequerecetas.com/wp-content/uploads/2024/08/pisto-manchego-08378.jpg"
+    }
+  ]
 }

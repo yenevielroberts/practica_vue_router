@@ -26,5 +26,7 @@ watch(
 <template>
     <h1>Recepte Detalle</h1>
     <p>{{ recepte.name }}</p>
+    <!--Tengo que poner los :antes del atributo porque le asigno el valor de una variable-->
+    <img :src="recepte.image" />
     <p>{{ recepte.description }}</p>
 </template>
