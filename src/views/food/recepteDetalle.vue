@@ -1,4 +1,6 @@
 <script setup>
+import {watch,ref} from 'vue';
+import { useRoute } from 'vue-router';
 </script>
 
 <template>
