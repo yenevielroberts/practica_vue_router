@@ -15,16 +15,16 @@ const agregarProducto=(id)=>{
     if(productoExiste !=null){
         productoExiste.cantidad+=1
     }else{
-       carret.value.push(producto) 
+       carret.value.push({...producto, cantidad:1}) 
     }
     
 }
+
 
 </script>
 
 
 <template>
-<h2>Productes</h2>
 
 <div>
     <!--agregarProducto evento creado en el component ProductItem 

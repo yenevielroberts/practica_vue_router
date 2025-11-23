@@ -1,0 +1,10 @@
+{
+    "gadgets":[
+        {"id":1, "name":"Headphones","price":50,"cantidad":1,"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {"id":2,  "name":"SmarthWatch","price":80,"cantidad":1,"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {"id":3,  "name":"Iphone","price":200,"cantidad":1,"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+    ],
+    "carret":[
+        
+    ]
+}

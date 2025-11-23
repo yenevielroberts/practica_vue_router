@@ -27,14 +27,26 @@ const agregarProducto=()=>{
 .producto{
     display:flex;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #2979FF;
     margin-top: 20px;
-    width: 200px;
+    width: fit-content;
+    color:white;
 }
 
 p{
     
     margin-right: 10px;
     padding-left: 5px;
+}
+
+button{
+    margin: 10px;
+    border-style: none;
+    background-color: #2979FF;
+    font-weight: bold;
+}
+
+button:hover{
+    color: #8E44AD;
 }
 </style>
